@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="99.272" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\laxmi\eclipse-workspace\Jupiter\target\test-classes;C:\Users\laxmi\eclipse-workspace\Jupiter\target\classes;C:\Users\laxmi\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\laxmi\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-server\2.53.1\selenium-server-2.53.1.jar;C:\Users\laxmi\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar;C:\Users\laxmi\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar;C:\Users\laxmi\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20150730\jetty-repacked-9.2.13.v20150730.jar;C:\Users\laxmi\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar;C:\Users\laxmi\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.1\selenium-java-2.53.1.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.1\selenium-chrome-driver-2.53.1.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.1\selenium-remote-driver-2.53.1.jar;C:\Users\laxmi\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\laxmi\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.1\selenium-api-2.53.1.jar;C:\Users\laxmi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;C:\Users\laxmi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar;C:\Users\laxmi\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.1\selenium-edge-driver-2.53.1.jar;C:\Users\laxmi\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\laxmi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.21\htmlunit-driver-2.21.jar;C:\Users\laxmi\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.21\htmlunit-2.21.jar;C:\Users\laxmi\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\laxmi\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\laxmi\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\laxmi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\laxmi\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Users\laxmi\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.21\neko-htmlunit-2.21.jar;C:\Users\laxmi\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\laxmi\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\laxmi\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.18\cssparser-0.9.18.jar;C:\Users\laxmi\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\laxmi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\laxmi\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.15.v20160210\websocket-client-9.2.15.v20160210.jar;C:\Users\laxmi\.m2\repository\org\eclipse\jetty\jetty-util\9.2.15.v20160210\jetty-util-9.2.15.v20160210.jar;C:\Users\laxmi\.m2\repository\org\eclipse\jetty\jetty-io\9.2.15.v20160210\jetty-io-9.2.15.v20160210.jar;C:\Users\laxmi\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.15.v20160210\websocket-common-9.2.15.v20160210.jar;C:\Users\laxmi\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.15.v20160210\websocket-api-9.2.15.v20160210.jar;C:\Users\laxmi\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.1\selenium-firefox-driver-2.53.1.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.1\selenium-ie-driver-2.53.1.jar;C:\Users\laxmi\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\laxmi\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.1\selenium-safari-driver-2.53.1.jar;C:\Users\laxmi\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.1\selenium-support-2.53.1.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.1\selenium-leg-rc-2.53.1.jar;C:\Users\laxmi\.m2\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar;C:\Users\laxmi\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Australia/Brisbane"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\laxmi\AppData\Local\Temp\surefire6900957091233935535\surefirebooter4705468803507685262.jar C:\Users\laxmi\AppData\Local\Temp\surefire6900957091233935535 2021-09-18T15-23-00_664-jvmRun1 surefire1234864283272751059tmp surefire_0364327995319887154tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\laxmi\eclipse-workspace\Jupiter\target\test-classes;C:\Users\laxmi\eclipse-workspace\Jupiter\target\classes;C:\Users\laxmi\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\laxmi\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-server\2.53.1\selenium-server-2.53.1.jar;C:\Users\laxmi\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar;C:\Users\laxmi\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar;C:\Users\laxmi\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20150730\jetty-repacked-9.2.13.v20150730.jar;C:\Users\laxmi\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar;C:\Users\laxmi\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.1\selenium-java-2.53.1.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.1\selenium-chrome-driver-2.53.1.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.1\selenium-remote-driver-2.53.1.jar;C:\Users\laxmi\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\laxmi\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.1\selenium-api-2.53.1.jar;C:\Users\laxmi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;C:\Users\laxmi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar;C:\Users\laxmi\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.1\selenium-edge-driver-2.53.1.jar;C:\Users\laxmi\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\laxmi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.21\htmlunit-driver-2.21.jar;C:\Users\laxmi\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.21\htmlunit-2.21.jar;C:\Users\laxmi\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\laxmi\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\laxmi\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\laxmi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\laxmi\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Users\laxmi\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.21\neko-htmlunit-2.21.jar;C:\Users\laxmi\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\laxmi\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\laxmi\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.18\cssparser-0.9.18.jar;C:\Users\laxmi\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\laxmi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\laxmi\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.15.v20160210\websocket-client-9.2.15.v20160210.jar;C:\Users\laxmi\.m2\repository\org\eclipse\jetty\jetty-util\9.2.15.v20160210\jetty-util-9.2.15.v20160210.jar;C:\Users\laxmi\.m2\repository\org\eclipse\jetty\jetty-io\9.2.15.v20160210\jetty-io-9.2.15.v20160210.jar;C:\Users\laxmi\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.15.v20160210\websocket-common-9.2.15.v20160210.jar;C:\Users\laxmi\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.15.v20160210\websocket-api-9.2.15.v20160210.jar;C:\Users\laxmi\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.1\selenium-firefox-driver-2.53.1.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.1\selenium-ie-driver-2.53.1.jar;C:\Users\laxmi\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\laxmi\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.1\selenium-safari-driver-2.53.1.jar;C:\Users\laxmi\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.1\selenium-support-2.53.1.jar;C:\Users\laxmi\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.1\selenium-leg-rc-2.53.1.jar;C:\Users\laxmi\.m2\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar;C:\Users\laxmi\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\laxmi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="basedir" value="C:\Users\laxmi\eclipse-workspace\Jupiter"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\laxmi\AppData\Local\Temp\surefire6900957091233935535\surefirebooter4705468803507685262.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="laxmi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="jnidispatch.path" value="C:\Users\laxmi\AppData\Local\Temp\jna-102748799\jna8693687754898728640.dll"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\laxmi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\laxmi\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="user.dir" value="C:\Users\laxmi\eclipse-workspace\Jupiter"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/laxmi/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/laxmi/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Users\laxmi\AppData\Local\Microsoft\WindowsApps;;C:\Users\laxmi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\laxmi\AppData\Roaming\npm;C:\Users\laxmi\eclipse\java-2021-03\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testContact" classname="jupiter.tests.ContactPage" time="9.633"/>
+  <testcase name="testContact" classname="jupiter.tests.ContactPage" time="15.496"/>
+  <testcase name="testContact" classname="jupiter.tests.ContactPage" time="7.768"/>
+  <testcase name="testContact" classname="jupiter.tests.ContactPage" time="11.883"/>
+  <testcase name="testContact" classname="jupiter.tests.ContactPage" time="12.834"/>
+  <testcase name="Items" classname="jupiter.tests.CartItems" time="2.991">
+    <system-out><![CDATA[PASSED: testContact
+PASSED: testContact
+PASSED: testContact
+PASSED: testContact
+PASSED: testContact
+
+===============================================
+    Jupiter Regression
+    Tests run: 5, Failures: 0, Skips: 0
+===============================================
+
+]]></system-out>
+  </testcase>
+  <testcase name="subitems" classname="jupiter.tests.SubTotal" time="4.418">
+    <system-out><![CDATA[PASSED: Items
+
+===============================================
+    Jupiter Regression
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+]]></system-out>
+  </testcase>
+</testsuite>

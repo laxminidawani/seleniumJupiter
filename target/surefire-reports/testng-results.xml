@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[The registration is successful]]>
+    </line>
+    <line>
+      <![CDATA[The registration is successful]]>
+    </line>
+    <line>
+      <![CDATA[The registration is successful]]>
+    </line>
+    <line>
+      <![CDATA[The registration is successful]]>
+    </line>
+    <line>
+      <![CDATA[The registration is successful]]>
+    </line>
+    <line>
+      <![CDATA[First Row in a cart hasFunny Cowwith count2]]>
+    </line>
+    <line>
+      <![CDATA[Second Row in a cart hasFluffy Bunnywith count1]]>
+    </line>
+    <line>
+      <![CDATA[Sub total for 2 Stuffed Frog  is$21.98]]>
+    </line>
+    <line>
+      <![CDATA[Sub total for 5 Fluffy Bunny is$49.95]]>
+    </line>
+    <line>
+      <![CDATA[Sub total for 3 Valentine Bear is$44.97]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite (0)" duration-ms="7317" started-at="2021-09-18T15:24:24 AEST" finished-at="2021-09-18T15:24:31 AEST">
+    <groups>
+    </groups>
+    <test name="Jupiter Regression" duration-ms="7317" started-at="2021-09-18T15:24:24 AEST" finished-at="2021-09-18T15:24:31 AEST">
+      <class name="jupiter.tests.CartItems">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:jupiter.tests.CartItems@16f7c8c1]" name="OpenBrowser" is-config="true" duration-ms="4053" started-at="2021-09-18T15:24:24 AEST" finished-at="2021-09-18T15:24:28 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="Items()[pri:0, instance:jupiter.tests.CartItems@16f7c8c1]" name="Items" duration-ms="2992" started-at="2021-09-18T15:24:28 AEST" finished-at="2021-09-18T15:24:31 AEST">
+          <reporter-output>
+            <line>
+              <![CDATA[First Row in a cart hasFunny Cowwith count2]]>
+            </line>
+            <line>
+              <![CDATA[Second Row in a cart hasFluffy Bunnywith count1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Items -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:jupiter.tests.CartItems@16f7c8c1]" name="closeBrowser" is-config="true" duration-ms="270" started-at="2021-09-18T15:24:31 AEST" finished-at="2021-09-18T15:24:31 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- jupiter.tests.CartItems -->
+    </test> <!-- Jupiter Regression -->
+  </suite> <!-- Default suite (0) -->
+  <suite name="Default suite (1)" duration-ms="8782" started-at="2021-09-18T15:24:31 AEST" finished-at="2021-09-18T15:24:40 AEST">
+    <groups>
+    </groups>
+    <test name="Jupiter Regression" duration-ms="8782" started-at="2021-09-18T15:24:31 AEST" finished-at="2021-09-18T15:24:40 AEST">
+      <class name="jupiter.tests.SubTotal">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:jupiter.tests.SubTotal@5204062d]" name="OpenBrowser" is-config="true" duration-ms="4101" started-at="2021-09-18T15:24:31 AEST" finished-at="2021-09-18T15:24:35 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="subitems()[pri:0, instance:jupiter.tests.SubTotal@5204062d]" name="subitems" duration-ms="4419" started-at="2021-09-18T15:24:35 AEST" finished-at="2021-09-18T15:24:40 AEST">
+          <reporter-output>
+            <line>
+              <![CDATA[Sub total for 2 Stuffed Frog  is$21.98]]>
+            </line>
+            <line>
+              <![CDATA[Sub total for 5 Fluffy Bunny is$49.95]]>
+            </line>
+            <line>
+              <![CDATA[Sub total for 3 Valentine Bear is$44.97]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- subitems -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:jupiter.tests.SubTotal@5204062d]" name="closeBrowser" is-config="true" duration-ms="262" started-at="2021-09-18T15:24:40 AEST" finished-at="2021-09-18T15:24:40 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- jupiter.tests.SubTotal -->
+    </test> <!-- Jupiter Regression -->
+  </suite> <!-- Default suite (1) -->
+  <suite name="Default suite" duration-ms="82538" started-at="2021-09-18T15:23:01 AEST" finished-at="2021-09-18T15:24:24 AEST">
+    <groups>
+    </groups>
+    <test name="Jupiter Regression" duration-ms="82538" started-at="2021-09-18T15:23:01 AEST" finished-at="2021-09-18T15:24:24 AEST">
+      <class name="jupiter.tests.ContactPage">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:jupiter.tests.ContactPage@7e0e6aa2]" name="OpenBrowser" is-config="true" duration-ms="5806" started-at="2021-09-18T15:23:01 AEST" finished-at="2021-09-18T15:23:07 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="testContact()[pri:0, instance:jupiter.tests.ContactPage@7e0e6aa2]" name="testContact" duration-ms="9632" started-at="2021-09-18T15:23:07 AEST" finished-at="2021-09-18T15:23:17 AEST">
+          <reporter-output>
+            <line>
+              <![CDATA[The registration is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testContact -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:jupiter.tests.ContactPage@7e0e6aa2]" name="closeBrowser" is-config="true" duration-ms="445" started-at="2021-09-18T15:23:17 AEST" finished-at="2021-09-18T15:23:17 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:jupiter.tests.ContactPage@7e0e6aa2]" name="OpenBrowser" is-config="true" duration-ms="4270" started-at="2021-09-18T15:23:17 AEST" finished-at="2021-09-18T15:23:21 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="testContact()[pri:0, instance:jupiter.tests.ContactPage@7e0e6aa2]" name="testContact" duration-ms="15495" started-at="2021-09-18T15:23:21 AEST" finished-at="2021-09-18T15:23:37 AEST">
+          <reporter-output>
+            <line>
+              <![CDATA[The registration is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testContact -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:jupiter.tests.ContactPage@7e0e6aa2]" name="closeBrowser" is-config="true" duration-ms="298" started-at="2021-09-18T15:23:37 AEST" finished-at="2021-09-18T15:23:37 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:jupiter.tests.ContactPage@7e0e6aa2]" name="OpenBrowser" is-config="true" duration-ms="4164" started-at="2021-09-18T15:23:37 AEST" finished-at="2021-09-18T15:23:41 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="testContact()[pri:0, instance:jupiter.tests.ContactPage@7e0e6aa2]" name="testContact" duration-ms="7767" started-at="2021-09-18T15:23:41 AEST" finished-at="2021-09-18T15:23:49 AEST">
+          <reporter-output>
+            <line>
+              <![CDATA[The registration is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testContact -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:jupiter.tests.ContactPage@7e0e6aa2]" name="closeBrowser" is-config="true" duration-ms="293" started-at="2021-09-18T15:23:49 AEST" finished-at="2021-09-18T15:23:49 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:jupiter.tests.ContactPage@7e0e6aa2]" name="OpenBrowser" is-config="true" duration-ms="4181" started-at="2021-09-18T15:23:49 AEST" finished-at="2021-09-18T15:23:54 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="testContact()[pri:0, instance:jupiter.tests.ContactPage@7e0e6aa2]" name="testContact" duration-ms="11882" started-at="2021-09-18T15:23:54 AEST" finished-at="2021-09-18T15:24:05 AEST">
+          <reporter-output>
+            <line>
+              <![CDATA[The registration is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testContact -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:jupiter.tests.ContactPage@7e0e6aa2]" name="closeBrowser" is-config="true" duration-ms="366" started-at="2021-09-18T15:24:05 AEST" finished-at="2021-09-18T15:24:06 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:jupiter.tests.ContactPage@7e0e6aa2]" name="OpenBrowser" is-config="true" duration-ms="4753" started-at="2021-09-18T15:24:06 AEST" finished-at="2021-09-18T15:24:11 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="testContact()[pri:0, instance:jupiter.tests.ContactPage@7e0e6aa2]" name="testContact" duration-ms="12833" started-at="2021-09-18T15:24:11 AEST" finished-at="2021-09-18T15:24:23 AEST">
+          <reporter-output>
+            <line>
+              <![CDATA[The registration is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testContact -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:jupiter.tests.ContactPage@7e0e6aa2]" name="closeBrowser" is-config="true" duration-ms="319" started-at="2021-09-18T15:24:23 AEST" finished-at="2021-09-18T15:24:24 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- jupiter.tests.ContactPage -->
+    </test> <!-- Jupiter Regression -->
+  </suite> <!-- Default suite -->
+</testng-results>

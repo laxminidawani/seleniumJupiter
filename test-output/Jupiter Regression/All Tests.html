@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>TestNG:  All Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>All Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Sep 18 15:33:26 AEST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>89 seconds (89649 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='jupiter.tests.ContactPage.testContact()'><b>testContact</b><br>Test class: jupiter.tests.ContactPage<br/>
+<a href="#Output-178604517" onClick='toggleBox("Output-178604517", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-178604517" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-178604517">
+The registration is successful<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>jupiter.tests.ContactPage@6b67034</td></tr>
+<tr>
+<td title='jupiter.tests.CartItems.Items()'><b>Items</b><br>Test class: jupiter.tests.CartItems<br/>
+<a href="#Output-1552870927" onClick='toggleBox("Output-1552870927", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1552870927" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1552870927">
+First Row in a cart hasFunny Cowwith count2<br/>
+Second Row in a cart hasFluffy Bunnywith count1<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>jupiter.tests.CartItems@f0f2775</td></tr>
+<tr>
+<td title='jupiter.tests.SubTotal.subitems()'><b>subitems</b><br>Test class: jupiter.tests.SubTotal<br/>
+<a href="#Output-1123321137" onClick='toggleBox("Output-1123321137", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1123321137" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1123321137">
+Sub total for 2 Stuffed Frog  is$21.98<br/>
+Sub total for 5 Fluffy Bunny is$49.95<br/>
+Sub total for 3 Valentine Bear is$44.97<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>jupiter.tests.SubTotal@5a4aa2f2</td></tr>
+<tr>
+<td title='jupiter.tests.ContactPage.testContact()'><b>testContact</b><br>Test class: jupiter.tests.ContactPage<br/>
+<a href="#Output-552674617" onClick='toggleBox("Output-552674617", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-552674617" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-552674617">
+The registration is successful<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>jupiter.tests.ContactPage@6b67034</td></tr>
+<tr>
+<td title='jupiter.tests.ContactPage.testContact()'><b>testContact</b><br>Test class: jupiter.tests.ContactPage<br/>
+<a href="#Output-1027319653" onClick='toggleBox("Output-1027319653", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1027319653" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1027319653">
+The registration is successful<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>jupiter.tests.ContactPage@6b67034</td></tr>
+<tr>
+<td title='jupiter.tests.ContactPage.testContact()'><b>testContact</b><br>Test class: jupiter.tests.ContactPage<br/>
+<a href="#Output-638486177" onClick='toggleBox("Output-638486177", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-638486177" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-638486177">
+The registration is successful<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>jupiter.tests.ContactPage@6b67034</td></tr>
+<tr>
+<td title='jupiter.tests.ContactPage.testContact()'><b>testContact</b><br>Test class: jupiter.tests.ContactPage<br/>
+<a href="#Output-295180183" onClick='toggleBox("Output-295180183", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-295180183" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-295180183">
+The registration is successful<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>jupiter.tests.ContactPage@6b67034</td></tr>
+</table><p>
+</body>
+</html>

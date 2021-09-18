@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Jupiter CartItem ">
+  <test name="Cart Item Test" verbose="2">
+    <classes>
+      <class name="jupiter.tests.CartItems"/>
+      </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
